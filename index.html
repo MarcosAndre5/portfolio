@@ -1,19 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="icon" type="image/png" href="favicon_marcos_16x16.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imagens/favicon_marcos_16x16.png">
     <title>Marcos André | Portfólio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!--link rel="stylesheet" href="estilo.css"-->
-    <style>
-        h1, header, nav, footer { text-align: center; }
-        body { background-color: lightgrey; }
-    </style>
-    <script>
-        //alert("Página ainda em desenvolvimento.\nEstou escrevendo e melhorando quando posso.\nSe quiser visualizar mesmo assim, clique em 'OK'.")
-    </script>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
@@ -22,11 +14,12 @@
     </header>
     <hr>
     <nav>
-        <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#experiencia">Experiência</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#skills">Tecnologias</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#projetos">Projetos</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#contato">Contato</a>
+        <a href="#sobre">Sobre</a>&nbsp;
+        <a href="#experiencia">Experiência</a>&nbsp;
+        <a href="#experiencia">Certificados</a>&nbsp;
+        <a href="#skills">Tecnologias</a>&nbsp;
+        <a href="#projetos">Projetos</a>&nbsp;
+        <a href="#contato">Contatos</a>
     </nav>
     <hr>
     <section id="sobre">
@@ -34,10 +27,11 @@
         <div class="sobre">
             <div class="foto"></div>
             <div class="sobre-texto">
-                <p>
-                    Sou Marcos André Azevedo de Assis bacharel em Ciência da Computação pela Universidade do Estado do Rio Grande do Norte (<a href="https://portal.uern.br" target="_blank">UERN</a>) e também técnico em Tecnologia da Informação com ênfase em Desenvolvimento Web pelo Instituto Metrópole Digital na Universidade Federal do Rio Grande do Norte (<a href="https://www.metropoledigital.ufrn.br" target="_blank">IMD-UFRN</a>). Atualmente, sou aluno de Pós-Graduação em Engenharia de Software pela <a href="https://faculdadefocus.com.br" target="_blank">Faculdade Focus</a>.
-                    <br>
-                    Hoje, trabalho como Programador de Sistemas na Fundação Norte-Rio-Grandense de Pesquisa e Cultura (<a href="https://funpec.br/" target="_blank">FUNPEC</a>), atuando a maior parte do tempo como desenvolvedor back-end utilizando tecnologias como Java e o framework Spring, PHP e o framework Laravel, banco de dados PostgreSQL, versionamento de código-fonte com Git e GitLab, além do sistema operacional Linux Ubuntu, entre outras ferramentas voltadas ao desenvolvimento de sistemas.
+                <p class="texto">
+                    <img src="imagens/marcos_green.jpeg" alt="Marcos André Azevedo de Assis" class="foto-perfil">
+                    Sou Marcos André Azevedo de Assis, bacharel em Ciência da Computação pela Universidade do Estado do Rio Grande do Norte (<a href="https://portal.uern.br" target="_blank">UERN</a>) e também técnico em Tecnologia da Informação, com ênfase em Desenvolvimento Web, pelo Instituto Metrópole Digital da Universidade Federal do Rio Grande do Norte (<a href="https://www.metropoledigital.ufrn.br" target="_blank">IMD-UFRN</a>). Atualmente, sou aluno de pós-graduação em Engenharia de Software pela <a href="https://faculdadefocus.com.br" target="_blank">Faculdade Focus</a>.
+                    <br><br>
+                    Hoje, trabalho como Programador de Sistemas na Fundação Norte-Rio-Grandense de Pesquisa e Cultura (<a href="https://funpec.br/" target="_blank">FUNPEC</a>), atuando, na maior parte do tempo, como desenvolvedor back-end, utilizando tecnologias como Java e o framework Spring, PHP e o framework Laravel, banco de dados PostgreSQL, versionamento de código-fonte com Git e GitLab, além do sistema operacional Linux Ubuntu, entre outras ferramentas voltadas ao desenvolvimento de sistemas.
                 </p>
             </div>
         </div>
@@ -45,41 +39,30 @@
     <hr>
     <section id="experiencia">
         <h2>Experiência</h2>
-        <p>
+        <p class="texto">
             Meu percurso teve início durante o curso de Ciência da Computação. Nesse período, pude realizar alguns estágios, conciliando o tempo entre as aulas e as atividades do estágio. Nessas oportunidades, contribuí para o desenvolvimento e a manutenção de sistemas institucionais, utilizando diversas tecnologias e, consequentemente, adquirindo experiência prática na área de desenvolvimento de sistemas.
+            <br><br>
+            Locais onde estagiei:
         </p>
-        <p>Locais onde estagiei:</p>
         <ul>
             <li>JUCERN (Junta Comercial do Estado do Rio Grande do Norte) — 1 ano e 3 meses;</li>
             <li>SESED (Secretaria da Segurança Pública e da Defesa Social) — 4 meses;</li>
             <li>SESAP (Secretaria de Estado da Saúde Pública do Rio Grande do Norte) — 1 ano e 8 meses;</li>
             <li>STI/UERN (Superintendência de Tecnologia da Informação da Universidade do Estado do Rio Grande do Norte) — 6 meses.</li>
         </ul>
-        <p>Falando um pouco sobre os estágios apresentados:</p>
-        <p>
-            Na Junta Comercial do Estado do Rio Grande do Norte, participei da implementação de funcionalidades e
-            correções no sistema de atendimento ao cliente, utilizando tecnologias como Grails, Java e o framework
-            Java Server Faces (JSF).
-        </p>
-        <p>
-            Posteriormente, atuei na Secretaria de Estado da Segurança Pública e da Defesa Social, contribuindo
-            no desenvolvimento de um novo sistema voltado para a polícia do estado, utilizando PHP com Laravel e
-            banco de dados SQL Server.
-        </p>
-        <p>
-            Também estagiei na Secretaria de Estado da Saúde Pública, onde participei, junto à equipe de
-            desenvolvimento, da criação de uma nova solução para substituir o antigo sistema de avaliação de
-            desempenho dos servidores da secretaria. Nesse projeto, foram utilizadas tecnologias como C#,
-            framework .NET e banco de dados SQL Server.
-        </p>
-        <p>
-            E por último, realizei estágio na Superintendência de Tecnologia da Informação da Universidade do Estado
-            do Rio Grande do Norte, onde colaborei no desenvolvimento de um sistema em PHP e MySQL para geração das
-            folhas de ponto dos servidores da universidade. A solução trouxe mais agilidade e eficiência para os
-            processos da secretaria geral da instituição, especialmente durante o fechamento mensal das frequências.
+        <p class="texto">
+            Falando um pouco sobre os estágios apresentados:
+            <br><br>
+            Na JUCERN, participei da implementação de funcionalidades e correções no sistema de atendimento ao cliente, utilizando tecnologias como Grails, Java e o framework Java Server Faces (JSF).
+            <br><br>
+            Posteriormente, atuei na SESED, contribuindo no desenvolvimento de um novo sistema voltado para a polícia do estado, utilizando PHP com Laravel e banco de dados SQL Server.
+            <br><br>
+            Também estagiei na SESAP, onde participei, junto à equipe de desenvolvimento, da criação de uma nova solução para substituir o antigo sistema de avaliação de desempenho dos servidores da secretaria. Nesse projeto, foram utilizadas tecnologias como C#, framework .NET e banco de dados SQL Server.
+            <br><br>
+            E por último, realizei estágio na STI/UERN, onde colaborei no desenvolvimento de um sistema em PHP e MySQL para geração das folhas de ponto dos servidores da universidade. A solução trouxe mais agilidade e eficiência para os processos da secretaria geral da instituição, especialmente durante o fechamento mensal das frequências.
         </p>
         <h3>Atualmente</h3>
-        <p>
+        <p class="texto">
             Desde 1º de março de 2023, tenho a honra de atuar como Programador de Sistemas na Fundação Norte-Rio-Grandense de Pesquisa e Cultura — FUNPEC, após aprovação em processo seletivo para o setor de Assessoria de Tecnologia da Informação (ATI), função que exerço até o presente momento. Nesse período, tive a oportunidade de contribuir em diversas frentes de desenvolvimento de sistemas, participando da criação, manutenção e aprimoramento de projetos de sistemas.
         </p>
         <!--h4>Projetos em que trabalho/trabalhei</h4>
@@ -104,20 +87,33 @@
         <h3>Estágios:</h3-->
     </section>
     <hr>
-  <section id="skills">
-    <h2>Tecnologias</h2>
-
-    <div class="skills">
-      <div class="skill">Laravel</div>
-      <div class="skill">PHP</div>
-      <div class="skill">Java</div>
-      <div class="skill">Spring Boot</div>
-      <div class="skill">JavaScript</div>
-      <div class="skill">PostgreSQL</div>
-      <div class="skill">Git</div>
-      <div class="skill">HTML/CSS</div>
-    </div>
-  </section>
+    <section id="skills">
+        <h2>Certificados</h2>
+        <div class="skills">
+            <div class="skill">Laravel</div>
+            <div class="skill">PHP</div>
+            <div class="skill">Java</div>
+            <div class="skill">Spring Boot</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">PostgreSQL</div>
+            <div class="skill">Git</div>
+            <div class="skill">HTML/CSS</div>
+        </div>
+    </section>
+    <hr>
+    <section id="skills">
+        <h2>Tecnologias</h2>
+        <div class="skills">
+            <div class="skill">Laravel</div>
+            <div class="skill">PHP</div>
+            <div class="skill">Java</div>
+            <div class="skill">Spring Boot</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">PostgreSQL</div>
+            <div class="skill">Git</div>
+            <div class="skill">HTML/CSS</div>
+        </div>
+    </section>
 
   <section id="projetos">
     <h2>Projetos</h2>
@@ -177,7 +173,8 @@
     </section>
     <hr>
     <footer>
-        <p>© 2026 Marcos André - Todos os direitos reservados.</p>
+        <p>© <span id="anoAtual"></span> Marcos André - Todos os direitos reservados.</p>
     </footer>
+    <script src="funcoes.js"></script>
 </body>
 </html>
