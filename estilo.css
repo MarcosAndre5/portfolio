@@ -1,4 +1,20 @@
+h1, header, nav, footer { text-align: center; }
 
+.texto { text-align: justify; }
+
+body { background-color: lightgrey; }
+
+.foto-perfil {
+    width: 15vh;
+    max-width: 100%;
+    height: auto;
+    float: right;
+    border-radius: 50%; /* opcional */
+    margin: 1vh;
+}
+
+
+/*
         * {
         margin: 0;
         padding: 0;
@@ -158,3 +174,4 @@
             text-align: center;
         }
         }
+*/
