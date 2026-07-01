@@ -1,8 +1,12 @@
 h1, header, nav, footer { text-align: center; }
 
-.texto { text-align: justify; }
-
 body { background-color: lightgrey; }
+
+p { text-align: justify; }
+
+nav a { margin-right: 1%; }
+
+nav a:last-child { margin-right: 0; }
 
 .foto-perfil {
     width: 18vh;
