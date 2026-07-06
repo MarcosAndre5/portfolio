@@ -7,170 +7,177 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.0/css/all.min.css">
     <title>Marcos André | Portfólio</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Marcos André Azevedo de Assis</h1>
-        <h4>
-            Java (Spring) <i class="fa-brands fa-java"></i> |
-            PHP (Laravel) <i class="fa-brands fa-php"></i> |
-            PostgreSQL <i class="fa-brands fa-postgresql"></i> |
-            Git <i class="fa-brands fa-git-alt"></i> |
-            GitLab <i class="fa-brands fa-square-gitlab"></i> |
-            Ubuntu Linux <i class="fa-brands fa-linux"></i>
-        </h4>
-    </header>
-    <hr>
-    <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#experiencia">Experiência</a>
-        <a href="#certificados">Certificados</a>
-        <a href="#tecnologias">Tecnologias</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#contato">Contato</a>
-    </nav>
-    <hr>
-    <section id="sobre">
-        <h2>Sobre</h2>
-        <p>
-            <img src="imagens/marcos_green.jpeg" alt="Marcos André Azevedo de Assis" class="foto-perfil">
-            Sou Marcos André Azevedo de Assis, bacharel em Ciência da Computação pela Universidade do Estado do Rio Grande do Norte (<a href="https://portal.uern.br" target="_blank">UERN</a>), técnico em Tecnologia da Informação, com ênfase em Desenvolvimento Web, pelo Instituto Metrópole Digital da Universidade Federal do Rio Grande do Norte (<a href="https://www.metropoledigital.ufrn.br" target="_blank">IMD/UFRN</a>), e pós-graduado em Engenharia de <i>Software</i> pela <a href="https://faculdadefocus.com.br" target="_blank">Faculdade Focus</a>.
-        </p>
-        <p>
-            Atualmente, trabalho como Programador de Sistemas na Fundação Norte-Rio-Grandense de Pesquisa e Cultura (<a href="https://funpec.br/" target="_blank">FUNPEC</a>), atuando principalmente como desenvolvedor <i>back-end</i>. E em alguns projetos pontuais, também atuo como desenvolvedor <i>full-stack</i>.
-        </p>
-        <p>
-            No dia a dia como programador, utilizo tecnologias como as linguagens Java e PHP, em conjunto com os <i>frameworks</i> Spring Boot e Laravel, respectivamente; o banco de dados PostgreSQL para armazenamento de dados; Git e GitLab para versionamento de código-fonte; o sistema operacional Ubuntu Linux; além de outras ferramentas voltadas ao desenvolvimento de <i>software</i>.
-        </p>
-    </section>
-    <hr>
-    <section id="experiencia">
-        <h2>Experiência</h2>
-        <p>
-            <img src="imagens/marcos_black.jpg" alt="Marcos André Azevedo de Assis" class="foto-perfil">
-            Durante o curso de Ciência da Computação, realizei estágios que me proporcionaram a oportunidade de contribuir para o desenvolvimento e a manutenção de sistemas. Nessas experiências, utilizei diferentes tecnologias e adquiri experiência prática na área de Tecnologia da Informação.
-        </p>
-        <p>Alguns dos locais onde estagiei:</p>
-        <ul>
-            <li>
-                Junta Comercial do Estado do Rio Grande do Norte (<a href="https://www.jucern.rn.gov.br/" target="_blank">JUCERN</a>) — 1 ano e 3 meses;
-            </li>
-            <li>
-                Secretaria da Segurança Pública e da Defesa Social (<a href="http://www.defesasocial.rn.gov.br/" target="_blank">SESED</a>) — 4 meses;
-            </li>
-            <li>
-                Secretaria de Estado da Saúde Pública do Rio Grande do Norte (<a href="http://www.saude.rn.gov.br/" target="_blank">SESAP</a>) — 1 ano e 8 meses;
-            </li>
-            <li>
-                Superintendência de Tecnologia da Informação da Universidade do Estado do Rio Grande do Norte (<a href="https://portal.uern.br/sti/" target="_blank">STI/UERN</a>) — 6 meses.
-            </li>
-        </ul>
-        <!--p class="texto">
-            Falando um pouco sobre os estágios apresentados:
-            <br><br>
-            Na JUCERN, participei da implementação de funcionalidades e correções no sistema de atendimento ao cliente, utilizando tecnologias como Grails, Java e o framework Java Server Faces (JSF).
-            <br><br>
-            Posteriormente, atuei na SESED, contribuindo no desenvolvimento de um novo sistema voltado para a polícia do estado, utilizando PHP com Laravel e banco de dados SQL Server.
-            <br><br>
-            Também estagiei na SESAP, onde participei, junto à equipe de desenvolvimento, da criação de uma nova solução para substituir o antigo sistema de avaliação de desempenho dos servidores da secretaria. Nesse projeto, foram utilizadas tecnologias como C#, framework .NET e banco de dados SQL Server.
-            <br><br>
-            E por último, realizei estágio na STI/UERN, onde colaborei no desenvolvimento de um sistema em PHP e MySQL para geração das folhas de ponto dos servidores da universidade. A solução trouxe mais agilidade e eficiência para os processos da secretaria geral da instituição, especialmente durante o fechamento mensal das frequências.
-        </p>
-        <h3>Atualmente</h3>
-        <p class="texto">
-            Desde 1º de março de 2023, tenho a honra de atuar como Programador de Sistemas na Fundação Norte-Rio-Grandense de Pesquisa e Cultura — FUNPEC, após aprovação em processo seletivo para o setor de Assessoria de Tecnologia da Informação (ATI), função que exerço até o presente momento. Nesse período, tive a oportunidade de contribuir em diversas frentes de desenvolvimento de sistemas, participando da criação, manutenção e aprimoramento de projetos de sistemas.
-        </p>
-    </section>
-    <hr>
-    <section id="certificados">
-        <h2>Certificados</h2>
-        <div class="certificados">
+    <div class="container">
+        <header>
+            <h1>Marcos André</h1>
+            <h4>
+                Java (Spring) <i class="fa-brands fa-java"></i> |
+                PHP (Laravel) <i class="fa-brands fa-php"></i> |
+                PostgreSQL <i class="fa-brands fa-postgresql"></i> |
+                Git <i class="fa-brands fa-git-alt"></i> |
+                GitLab <i class="fa-brands fa-square-gitlab"></i> |
+                Ubuntu Linux <i class="fa-brands fa-linux"></i>
+            </h4>
+        </header>
+        <hr>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#certificados">Certificados</a>
+            <a href="#tecnologias">Tecnologias</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <hr>
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>
+                <img src="imagens/marcos_green.jpeg" alt="Marcos André Azevedo de Assis" class="foto-perfil">
+                Sou Marcos André Azevedo de Assis, bacharel em Ciência da Computação pela Universidade do Estado do Rio Grande do Norte (<a href="https://portal.uern.br" target="_blank">UERN</a>), técnico em Tecnologia da Informação, com ênfase em Desenvolvimento Web, pelo Instituto Metrópole Digital da Universidade Federal do Rio Grande do Norte (<a href="https://www.metropoledigital.ufrn.br" target="_blank">IMD/UFRN</a>), e pós-graduado em Engenharia de <i>Software</i> pela <a href="https://faculdadefocus.com.br" target="_blank">Faculdade Focus</a>.
+            </p>
+            <p>
+                Atualmente, trabalho como Programador de Sistemas na Fundação Norte-Rio-Grandense de Pesquisa e Cultura (<a href="https://funpec.br/" target="_blank">FUNPEC</a>), atuando principalmente como desenvolvedor <i>back-end</i>. E em alguns projetos pontuais, também atuo como desenvolvedor <i>full-stack</i>.
+            </p>
+            <p>
+                No dia a dia como programador, utilizo tecnologias como as linguagens Java e PHP, em conjunto com os <i>frameworks</i> Spring Boot e Laravel, respectivamente; o banco de dados PostgreSQL para armazenamento de dados; Git e GitLab para versionamento de código-fonte; o sistema operacional Ubuntu Linux; além de outras ferramentas voltadas ao desenvolvimento de <i>software</i>.
+            </p>
+        </section>
+        <hr>
+        <section id="experiencia">
+            <h2>Experiência</h2>
+            <p>
+                <img src="imagens/marcos_black.jpg" alt="Marcos André Azevedo de Assis" class="foto-perfil">
+                Durante o curso de Ciência da Computação, realizei estágios que me proporcionaram a oportunidade de contribuir para o desenvolvimento e a manutenção de sistemas. Nessas experiências, utilizei diferentes tecnologias e adquiri experiência prática na área de Tecnologia da Informação.
+            </p>
+            <h3>Alguns dos locais onde estagiei</h3>
             <ul>
                 <li>
-                    Bacharel em Ciência da Computação. <a href="documentos/CertificadoGraduacao_MarcosAndre.pdf" target="_blank">Visualizar Certificado</a>;
+                    Junta Comercial do Estado do Rio Grande do Norte (<a href="https://www.jucern.rn.gov.br/" target="_blank">JUCERN</a>) — 1 ano e 3 meses;
                 </li>
                 <li>
-                    Técnico em Tecnologia da Informação. <a href="documentos/certificados_imd.pdf" target="_blank">Visualizar Certificado</a>;
+                    Secretaria da Segurança Pública e da Defesa Social (<a href="http://www.defesasocial.rn.gov.br/" target="_blank">SESED</a>) — 4 meses;
+                </li>
+                <li>
+                    Secretaria de Estado da Saúde Pública do Rio Grande do Norte (<a href="http://www.saude.rn.gov.br/" target="_blank">SESAP</a>) — 1 ano e 8 meses;
+                </li>
+                <li>
+                    Superintendência de Tecnologia da Informação da Universidade do Estado do Rio Grande do Norte (<a href="https://portal.uern.br/sti/" target="_blank">STI/UERN</a>) — 6 meses.
                 </li>
             </ul>
+            <h3>Falando um pouco sobre os estágios apresentados</h3>
+            <p>
+                Na JUCERN, participei da implementação de novas funcionalidades e da correção de problemas no sistema de atendimento ao cliente, utilizando tecnologias como a linguagem Java com o <i>framework</i> JavaServer Faces (JSF), além da linguagem Groovy com o <i>framework</i> Grails e o banco de dados Oracle.
+            </p>
+            <p>
+                Posteriormente, atuei na SESED, contribuindo para o desenvolvimento de um novo sistema voltado à Polícia Civil do Estado, utilizando a linguagem PHP com o <i>framework</i> Laravel e o banco de dados SQL Server.
+            </p>
+            <p>
+                Em seguida, estagiei na SESAP, onde participei, juntamente com a equipe de desenvolvimento, da criação de uma nova solução para substituir o antigo sistema de avaliação de desempenho dos servidores da secretaria. Nesse projeto, foram utilizadas tecnologias como a linguagem C#, o <i>framework</i> .NET e o banco de dados SQL Server.
+            </p>
+            <p>
+                Por fim, realizei estágio na STI/UERN, onde colaborei no desenvolvimento de um sistema em PHP com banco de dados MySQL para a geração das folhas de ponto dos servidores da universidade. A solução trouxe mais agilidade e eficiência aos processos da Secretaria Geral da instituição, especialmente durante o fechamento mensal das frequências.
+            </p>
+            <h3>Atualmente</h3>
+            <p>
+                Desde 1º de março de 2023, estou como Programador de Sistemas na Fundação Norte-Rio-Grandense de Pesquisa e Cultura — FUNPEC, após aprovação em processo seletivo para o setor de Assessoria de Tecnologia da Informação (ATI), função que exerço até o presente momento. Nesse período, tive a oportunidade de contribuir em diversas frentes de desenvolvimento de sistemas, participando da criação, manutenção e aprimoramento de projetos de sistemas.
+            </p>
+        </section>
+        <hr>
+        <section id="certificados">
+            <h2>Certificados</h2>
+            <div class="certificados">
+                <!--ul>
+                    <li>
+                        Bacharel em Ciência da Computação. <a href="documentos/CertificadoGraduacao_MarcosAndre.pdf" target="_blank">Visualizar Certificado</a>;
+                    </li>
+                    <li>
+                        Técnico em Tecnologia da Informação. <a href="documentos/certificados_imd.pdf" target="_parent">Visualizar Certificado</a>;
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section id="tecnologias">
+            <h2>Tecnologias</h2>
+            <div class="skills">
+                <div class="skill">Laravel</div>
+                <div class="skill">PHP</div>
+                <div class="skill">Java</div>
+                <div class="skill">Spring Boot</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">PostgreSQL</div>
+                <div class="skill">Git</div>
+                <div class="skill">HTML/CSS</div>
+            </div>
+        </section>
+
+      <section id="projetos">
+        <h2>Projetos</h2>
+
+        <div class="projetos">
+
+          <div class="card">
+            <h3>Sistema de Contratos</h3>
+
+            <p>
+              Sistema para gerenciamento de contratos com notificações automáticas,
+              controle de prazos e geração de relatórios.
+            </p>
+
+            <a href="#" class="btn">Ver Projeto</a>
+          </div>
+
+          <div class="card">
+            <h3>Gestão de Remanejamentos</h3>
+
+            <p>
+              Plataforma para controle de remanejamentos financeiros em projetos
+              geridos por fundações de apoio.
+            </p>
+
+            <a href="#" class="btn">Ver Projeto</a>
+          </div>
+
+          <div class="card">
+            <h3>Portal Administrativo</h3>
+
+            <p>
+              Sistema web para centralização de processos administrativos
+              internos e acompanhamento de atividades.
+            </p>
+
+            <a href="#" class="btn">Ver Projeto</a>
+          </div-->
+
         </div>
-    </section>
-    <hr>
-    <section id="tecnologias">
-        <h2>Tecnologias</h2>
-        <div class="skills">
-            <div class="skill">Laravel</div>
-            <div class="skill">PHP</div>
-            <div class="skill">Java</div>
-            <div class="skill">Spring Boot</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">PostgreSQL</div>
-            <div class="skill">Git</div>
-            <div class="skill">HTML/CSS</div>
-        </div>
-    </section>
+        </section>
 
-  <section id="projetos">
-    <h2>Projetos</h2>
-
-    <div class="projetos">
-
-      <div class="card">
-        <h3>Sistema de Contratos</h3>
-
-        <p>
-          Sistema para gerenciamento de contratos com notificações automáticas,
-          controle de prazos e geração de relatórios.
-        </p>
-
-        <a href="#" class="btn">Ver Projeto</a>
-      </div>
-
-      <div class="card">
-        <h3>Gestão de Remanejamentos</h3>
-
-        <p>
-          Plataforma para controle de remanejamentos financeiros em projetos
-          geridos por fundações de apoio.
-        </p>
-
-        <a href="#" class="btn">Ver Projeto</a>
-      </div>
-
-      <div class="card">
-        <h3>Portal Administrativo</h3>
-
-        <p>
-          Sistema web para centralização de processos administrativos
-          internos e acompanhamento de atividades.
-        </p>
-
-        <a href="#" class="btn">Ver Projeto</a>
-      </div>
-
-    </div-->
-    </section>
-
-    <hr>
-    <section id="contato">
-        <h2>Contato</h2>
-        <ul>
-            <li><a href="mailto:marcosandreazevedo78@gmail.com">marcosandreazevedo78@gmail.com</a> (Principal);</li>
-            <li><a href="mailto:marcosandreazevedo@hotmail.com">marcosandreazevedo@hotmail.com</a> (Secundário);</li>
-            <li><a href="mailto:marcos.andre@funpec.br">marcos.andre@funpec.br</a> (Corporativo);</li>
-            <li><a href="mailto:marcosassis@alu.uern.br">marcosassis@alu.uern.br</a> (Institucional).</li>
-        </ul>
-        <nav>
-            <a href="https://github.com/MarcosAndre5" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/marcos-andré-azevedo-de-assis-72a891130" target="_blank">LinkedIn <i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://wa.me/5584996449431" target="_blank">WhatsApp <i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://www.instagram.com/marcos.andre5" target="_blank">Instagram <i class="fa-brands fa-instagram"></i></a>
-        </nav>
-    </section>
-    <hr>
-    <footer>
-        <i class="fa-regular fa-copyright"></i> <span id="anoAtual"></span> Marcos André Azevedo de Assis - Todos os direitos reservados.
-    </footer>
+        <hr>
+        <section id="contato">
+            <h2>Contato</h2>
+            <ul>
+                <li><a href="mailto:marcosandreazevedo78@gmail.com">marcosandreazevedo78@gmail.com</a> (Principal);</li>
+                <li><a href="mailto:marcosandreazevedo@hotmail.com">marcosandreazevedo@hotmail.com</a> (Secundário);</li>
+                <li><a href="mailto:marcos.andre@funpec.br">marcos.andre@funpec.br</a> (Corporativo);</li>
+                <li><a href="mailto:marcosassis@alu.uern.br">marcosassis@alu.uern.br</a> (Institucional).</li>
+            </ul>
+            <nav>
+                <a href="https://github.com/MarcosAndre5" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/marcos-andré-azevedo-de-assis-72a891130" target="_blank">LinkedIn <i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://wa.me/5584996449431" target="_blank">WhatsApp <i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/marcos.andre5" target="_blank">Instagram <i class="fa-brands fa-instagram"></i></a>
+            </nav>
+        </section>
+        <hr>
+        <footer>
+            &copy; <span id="anoAtual"></span> Marcos André - Todos os direitos reservados.
+        </footer>
+    </div>
     <script src="funcoes.js"></script>
 </body>
 </html>

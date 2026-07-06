@@ -4,7 +4,7 @@ body { background-color: lightgrey; }
 
 p { text-align: justify; }
 
-nav a { margin-right: 1%; }
+nav a { margin-right: 0.5%; }
 
 nav a:last-child { margin-right: 0; }
 
