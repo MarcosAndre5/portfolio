@@ -25,15 +25,29 @@
             </b>
         </header>
         <hr>
-        <nav class="text-center">
-            <a href="#sobre">Sobre</a>
-            <a href="#experiencia">Experiência</a>
-            <a href="#certificados">Certificados</a>
-            <a href="#tecnologias">Tecnologias</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contato">Contato</a>
-        </nav>
-        <hr>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuPrincipal" aria-expanded="false">
+                        <span class="sr-only">Alternar navegação</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Portfólio</a>
+                </div>
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#experiencia">Experiência</a></li>
+                        <li><a href="#certificados">Certificados</a></li>
+                        <li><a href="#tecnologias">Tecnologias</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>     
         <section id="sobre">
             <h2>Sobre</h2>
             <p class="text-justify">
@@ -277,7 +291,7 @@
                         Projeto no qual trabalho atualmente, contribuindo para sua manutenção, evolução e aprimoramento contínuo.
                     </p>
                     <p class="text-justify">
-                        Sistema desenvolvido inicialmente para realizar consultas específicas à base de dados do SIGFundação. Com o tempo, evoluiu para incorporar diversas funcionalidades essenciais ao funcionamento da Fundação, incluindo gerenciamento de contratos, módulo de Ouvidoria, agendamento de salas, contabilidade, recursos humanos, entre outras.
+                        Este sistema foi desenvolvido inicialmente para realizar consultas específicas à base de dados de outro sistema maior. Com o tempo, evoluiu para incorporar diversas funcionalidades essenciais ao funcionamento da Fundação, incluindo gerenciamento de contratos, módulo de Ouvidoria, agendamento de salas, contabilidade, recursos humanos, entre outras.
                     </p>
                     <a href="https://apoio.funpec.br/apoio-funpec/" class="btn btn-primary" target="_blank">
                         Abrir sistema <i class="fa-solid fa-link"></i>
@@ -290,7 +304,7 @@
                 </div>
                 <div class="panel-body">
                     <p class="text-justify">
-                        Projeto no qual trabalho atualmente, realizando manutenção corretiva.
+                        Projeto no qual também trabalho atualmente, realizando manutenção corretiva.
                     </p>
                     <p class="text-justify">
                         Este sistema reúne as funcionalidades de três sistemas distintos da Fundação: o Sistema de Acompanhamento de Novas Demandas, o Sistema de Avaliação de Desempenho e o Sistema Gerenciador de Fundo Fixo.
@@ -306,7 +320,7 @@
                 </div>
                 <div class="panel-body">
                     <p class="text-justify">
-                        Um Sistema para Gerenciamento de Remanejamentos em Projetos de Fundações de Apoio Institucional.
+                        Sistema para gerenciamento de remanejamentos em projetos de Fundações de Apoio Institucional.
                     </p>
                     <p class="text-justify">
                         Este projeto foi desenvolvido e utilizado como monografia apresentada à Universidade do Estado do Rio Grande do Norte (UERN), em cumprimento ao requisito obrigatório para a obtenção do título de Bacharel em Ciência da Computação.
@@ -327,24 +341,77 @@
                     <p class="text-justify">
                         Sistema desenvolvido para funcionar como um mural digital dinâmico em televisores de recepções e outros estabelecimentos.
                     </p>
+                    <p class="text-justify">
+                        Atualmente rodando na intranet da empresa.
+                    </p>
                 </div>
             </div>
         </section>
         <hr>
         <section id="contato">
             <h2>Contato</h2>
-            <ul>
-                <li><a href="mailto:marcosandreazevedo78@gmail.com">marcosandreazevedo78@gmail.com</a> (Principal);</li>
-                <li><a href="mailto:marcosandreazevedo@hotmail.com">marcosandreazevedo@hotmail.com</a> (Secundário);</li>
-                <li><a href="mailto:marcos.andre@funpec.br">marcos.andre@funpec.br</a> (Corporativo);</li>
-                <li><a href="mailto:marcosassis@alu.uern.br">marcosassis@alu.uern.br</a> (Institucional).</li>
-            </ul>
-            <nav class="text-center">
-                <a href="https://github.com/MarcosAndre5" target="_blank">GitHub <i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/marcos-andré-azevedo-de-assis-72a891130" target="_blank">LinkedIn <i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://wa.me/5584996449431" target="_blank">WhatsApp <i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://www.instagram.com/marcos.andre5" target="_blank">Instagram <i class="fa-brands fa-instagram"></i></a>
-            </nav>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <strong><i class="fa-solid fa-envelope"></i> E-mails</strong>
+                        </div>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th>Principal</th>
+                                    <td>
+                                        <a href="mailto:marcosandreazevedo78@gmail.com">marcosandreazevedo78@gmail.com</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Secundário</th>
+                                    <td>
+                                        <a href="mailto:marcosandreazevedo@hotmail.com">marcosandreazevedo@hotmail.com</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Corporativo</th>
+                                    <td>
+                                        <a href="mailto:marcos.andre@funpec.br">marcos.andre@funpec.br</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Institucional</th>
+                                    <td>
+                                        <a href="mailto:marcosassis@alu.uern.br">marcosassis@alu.uern.br</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <strong><i class="fa-solid fa-share-nodes"></i> Redes</strong>
+                        </div>
+                        <div class="panel-body text-center">
+                            <a href="https://github.com/MarcosAndre5" target="_blank" class="btn btn-default btn-sm">
+                                <i class="fa-brands fa-github"></i><br>
+                                GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/marcos-andré-azevedo-de-assis-72a891130" target="_blank" class="btn btn-primary btn-sm">
+                                <i class="fa-brands fa-linkedin"></i><br>
+                                LinkedIn
+                            </a>
+                            <a href="https://wa.me/5584996449431" target="_blank" class="btn btn-success btn-sm">
+                                <i class="fa-brands fa-whatsapp"></i><br>
+                                WhatsApp
+                            </a>
+                            <a href="https://www.instagram.com/marcos.andre5" target="_blank" class="btn btn-danger btn-sm">
+                                <i class="fa-brands fa-instagram"></i><br>
+                                Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <hr>
         <footer class="text-center">
